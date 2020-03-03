@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+	<title>Check-It | The Simple To-Do List</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<!-- HEADER -->
+	<div id="headContainer">
+		<header id="mainHeader">
+			<!-- Place Check-It Bru Logo & Button-->
+			<h1>Check-It</h1>				
+			<input type="text" id="addItemBox"  placeholder="To-do item...">
+			<input type="Button" id="addButton" value="Add" onclick="addElement()">
+			<input type="Button" id="deleteButton" value="Delete" onclick="deleteElement()" disabled>
+		</header>
+	</div>
+
+
+	<div id="bodyContainer">
+		<!-- TO-DO LIST-->
+		<ul id="toDoList">
+		</ul>
+
+		<div></div>
+		
+		<!-- COMPLETED LIST -->
+		<ul id="completedList">
+		</ul>
+	</div>
+
+	<div id="searchContainer">
+		<input type="text" id="searchable" onkeyup="searchLists()" placeholder="Search items here...">
+	</div>
+
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/ToDoItem.js"></script>
+</body>
+</html>

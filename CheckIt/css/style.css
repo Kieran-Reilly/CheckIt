@@ -1,0 +1,64 @@
+body{
+	margin: 0;
+	background-color: #f0f0f0;
+	font-family: Calisto MT;
+}
+
+
+#addItemBox{
+	width:; 250px;
+}
+
+#mainHeader{
+	text-align: center;
+	margin: auto;
+	overflow: hidden;
+
+	padding-bottom: 5px;
+	
+	background-color: #2d364c;
+}
+
+h1{
+	color: #ff7800;
+	font-size: 50px;
+	font-weight: bold;
+	margin-top:10px;
+	margin-bottom: 10px;
+}
+
+
+#bodyContainer{
+	width:50%;
+	margin: auto;
+}
+
+#toDoList{
+	list-style: none;
+	padding: 0;
+}
+
+#completedList{
+	list-style: none;
+	padding: 0;
+	border-: 
+}
+
+
+#searchContainer{
+	width:50%;
+	margin: auto;
+}
+
+
+#searchable{
+	background-color: #2d364c;
+	color: white;
+	position: fixed;
+	bottom: 0;
+	width: 25%;
+	height: 25px;
+	right:37%;
+	left:auto;
+}
+
